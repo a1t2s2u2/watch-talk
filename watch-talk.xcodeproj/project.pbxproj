@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD2077E72D53BD26001208B0 /* watch-talk Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DD2077E62D53BD26001208B0 /* watch-talk Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD2077EC2D53BD26001208B0 /* watch_talkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2077EB2D53BD26001208B0 /* watch_talkApp.swift */; };
+		DD2077EE2D53BD26001208B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2077ED2D53BD26001208B0 /* ContentView.swift */; };
+		DD2077F02D53BD27001208B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2077EF2D53BD27001208B0 /* Assets.xcassets */; };
+		DD2077F32D53BD27001208B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2077F22D53BD27001208B0 /* Preview Assets.xcassets */; };
+		DD2077FD2D53BD27001208B0 /* watch_talk_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2077FC2D53BD27001208B0 /* watch_talk_Watch_AppTests.swift */; };
+		DD2078072D53BD27001208B0 /* watch_talk_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2078062D53BD27001208B0 /* watch_talk_Watch_AppUITests.swift */; };
+		DD2078092D53BD27001208B0 /* watch_talk_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2078082D53BD27001208B0 /* watch_talk_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD2077E82D53BD26001208B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2077DA2D53BD26001208B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2077E52D53BD26001208B0;
+			remoteInfo = "watch-talk Watch App";
+		};
+		DD2077F92D53BD27001208B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2077DA2D53BD26001208B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2077E52D53BD26001208B0;
+			remoteInfo = "watch-talk Watch App";
+		};
+		DD2078032D53BD27001208B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2077DA2D53BD26001208B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2077E52D53BD26001208B0;
+			remoteInfo = "watch-talk Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD20780F2D53BD27001208B0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DD2077E72D53BD26001208B0 /* watch-talk Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DD2077E02D53BD26001208B0 /* watch-talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2077E62D53BD26001208B0 /* watch-talk Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-talk Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2077EB2D53BD26001208B0 /* watch_talkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch_talkApp.swift; sourceTree = "<group>"; };
+		DD2077ED2D53BD26001208B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD2077EF2D53BD27001208B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD2077F22D53BD27001208B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD2077F82D53BD27001208B0 /* watch-talk Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watch-talk Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2077FC2D53BD27001208B0 /* watch_talk_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch_talk_Watch_AppTests.swift; sourceTree = "<group>"; };
+		DD2078022D53BD27001208B0 /* watch-talk Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watch-talk Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2078062D53BD27001208B0 /* watch_talk_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch_talk_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		DD2078082D53BD27001208B0 /* watch_talk_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch_talk_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD2077E32D53BD26001208B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2077F52D53BD27001208B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2077FF2D53BD27001208B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD2077D92D53BD26001208B0 = {
+			isa = PBXGroup;
+			children = (
+				DD2077EA2D53BD26001208B0 /* watch-talk Watch App */,
+				DD2077FB2D53BD27001208B0 /* watch-talk Watch AppTests */,
+				DD2078052D53BD27001208B0 /* watch-talk Watch AppUITests */,
+				DD2077E12D53BD26001208B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD2077E12D53BD26001208B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD2077E02D53BD26001208B0 /* watch-talk.app */,
+				DD2077E62D53BD26001208B0 /* watch-talk Watch App.app */,
+				DD2077F82D53BD27001208B0 /* watch-talk Watch AppTests.xctest */,
+				DD2078022D53BD27001208B0 /* watch-talk Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD2077EA2D53BD26001208B0 /* watch-talk Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DD2077EB2D53BD26001208B0 /* watch_talkApp.swift */,
+				DD2077ED2D53BD26001208B0 /* ContentView.swift */,
+				DD2077EF2D53BD27001208B0 /* Assets.xcassets */,
+				DD2077F12D53BD27001208B0 /* Preview Content */,
+			);
+			path = "watch-talk Watch App";
+			sourceTree = "<group>";
+		};
+		DD2077F12D53BD27001208B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DD2077F22D53BD27001208B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD2077FB2D53BD27001208B0 /* watch-talk Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD2077FC2D53BD27001208B0 /* watch_talk_Watch_AppTests.swift */,
+			);
+			path = "watch-talk Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DD2078052D53BD27001208B0 /* watch-talk Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD2078062D53BD27001208B0 /* watch_talk_Watch_AppUITests.swift */,
+				DD2078082D53BD27001208B0 /* watch_talk_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "watch-talk Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD2077DF2D53BD26001208B0 /* watch-talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2078102D53BD27001208B0 /* Build configuration list for PBXNativeTarget "watch-talk" */;
+			buildPhases = (
+				DD2077DE2D53BD26001208B0 /* Resources */,
+				DD20780F2D53BD27001208B0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD2077E92D53BD26001208B0 /* PBXTargetDependency */,
+			);
+			name = "watch-talk";
+			productName = "watch-talk";
+			productReference = DD2077E02D53BD26001208B0 /* watch-talk.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DD2077E52D53BD26001208B0 /* watch-talk Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD20780C2D53BD27001208B0 /* Build configuration list for PBXNativeTarget "watch-talk Watch App" */;
+			buildPhases = (
+				DD2077E22D53BD26001208B0 /* Sources */,
+				DD2077E32D53BD26001208B0 /* Frameworks */,
+				DD2077E42D53BD26001208B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watch-talk Watch App";
+			productName = "watch-talk Watch App";
+			productReference = DD2077E62D53BD26001208B0 /* watch-talk Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD2077F72D53BD27001208B0 /* watch-talk Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2078132D53BD27001208B0 /* Build configuration list for PBXNativeTarget "watch-talk Watch AppTests" */;
+			buildPhases = (
+				DD2077F42D53BD27001208B0 /* Sources */,
+				DD2077F52D53BD27001208B0 /* Frameworks */,
+				DD2077F62D53BD27001208B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD2077FA2D53BD27001208B0 /* PBXTargetDependency */,
+			);
+			name = "watch-talk Watch AppTests";
+			productName = "watch-talk Watch AppTests";
+			productReference = DD2077F82D53BD27001208B0 /* watch-talk Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD2078012D53BD27001208B0 /* watch-talk Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2078162D53BD27001208B0 /* Build configuration list for PBXNativeTarget "watch-talk Watch AppUITests" */;
+			buildPhases = (
+				DD2077FE2D53BD27001208B0 /* Sources */,
+				DD2077FF2D53BD27001208B0 /* Frameworks */,
+				DD2078002D53BD27001208B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD2078042D53BD27001208B0 /* PBXTargetDependency */,
+			);
+			name = "watch-talk Watch AppUITests";
+			productName = "watch-talk Watch AppUITests";
+			productReference = DD2078022D53BD27001208B0 /* watch-talk Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD2077DA2D53BD26001208B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DD2077DF2D53BD26001208B0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DD2077E52D53BD26001208B0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DD2077F72D53BD27001208B0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DD2077E52D53BD26001208B0;
+					};
+					DD2078012D53BD27001208B0 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DD2077E52D53BD26001208B0;
+					};
+				};
+			};
+			buildConfigurationList = DD2077DD2D53BD26001208B0 /* Build configuration list for PBXProject "watch-talk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD2077D92D53BD26001208B0;
+			productRefGroup = DD2077E12D53BD26001208B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD2077DF2D53BD26001208B0 /* watch-talk */,
+				DD2077E52D53BD26001208B0 /* watch-talk Watch App */,
+				DD2077F72D53BD27001208B0 /* watch-talk Watch AppTests */,
+				DD2078012D53BD27001208B0 /* watch-talk Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD2077DE2D53BD26001208B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2077E42D53BD26001208B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2077F32D53BD27001208B0 /* Preview Assets.xcassets in Resources */,
+				DD2077F02D53BD27001208B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2077F62D53BD27001208B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2078002D53BD27001208B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD2077E22D53BD26001208B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2077EE2D53BD26001208B0 /* ContentView.swift in Sources */,
+				DD2077EC2D53BD26001208B0 /* watch_talkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2077F42D53BD27001208B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2077FD2D53BD27001208B0 /* watch_talk_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2077FE2D53BD27001208B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2078092D53BD27001208B0 /* watch_talk_Watch_AppUITestsLaunchTests.swift in Sources */,
+				DD2078072D53BD27001208B0 /* watch_talk_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD2077E92D53BD26001208B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD2077E52D53BD26001208B0 /* watch-talk Watch App */;
+			targetProxy = DD2077E82D53BD26001208B0 /* PBXContainerItemProxy */;
+		};
+		DD2077FA2D53BD27001208B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD2077E52D53BD26001208B0 /* watch-talk Watch App */;
+			targetProxy = DD2077F92D53BD27001208B0 /* PBXContainerItemProxy */;
+		};
+		DD2078042D53BD27001208B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD2077E52D53BD26001208B0 /* watch-talk Watch App */;
+			targetProxy = DD2078032D53BD27001208B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD20780A2D53BD27001208B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD20780B2D53BD27001208B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DD20780D2D53BD27001208B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watch-talk Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = G4YLWA9N78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "watch-talk";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a1t2s2u2.watch-talk.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		DD20780E2D53BD27001208B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watch-talk Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = G4YLWA9N78;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "watch-talk";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a1t2s2u2.watch-talk.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		DD2078112D53BD27001208B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4YLWA9N78;
+				INFOPLIST_KEY_CFBundleDisplayName = "watch-talk";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a1t2s2u2.watch-talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD2078122D53BD27001208B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4YLWA9N78;
+				INFOPLIST_KEY_CFBundleDisplayName = "watch-talk";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a1t2s2u2.watch-talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD2078142D53BD27001208B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4YLWA9N78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a1t2s2u2.watch-talk-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watch-talk Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watch-talk Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		DD2078152D53BD27001208B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4YLWA9N78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a1t2s2u2.watch-talk-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watch-talk Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watch-talk Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		DD2078172D53BD27001208B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4YLWA9N78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a1t2s2u2.watch-talk-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watch-talk Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		DD2078182D53BD27001208B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G4YLWA9N78;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "a1t2s2u2.watch-talk-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watch-talk Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD2077DD2D53BD26001208B0 /* Build configuration list for PBXProject "watch-talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD20780A2D53BD27001208B0 /* Debug */,
+				DD20780B2D53BD27001208B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD20780C2D53BD27001208B0 /* Build configuration list for PBXNativeTarget "watch-talk Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD20780D2D53BD27001208B0 /* Debug */,
+				DD20780E2D53BD27001208B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2078102D53BD27001208B0 /* Build configuration list for PBXNativeTarget "watch-talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2078112D53BD27001208B0 /* Debug */,
+				DD2078122D53BD27001208B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2078132D53BD27001208B0 /* Build configuration list for PBXNativeTarget "watch-talk Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2078142D53BD27001208B0 /* Debug */,
+				DD2078152D53BD27001208B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2078162D53BD27001208B0 /* Build configuration list for PBXNativeTarget "watch-talk Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2078172D53BD27001208B0 /* Debug */,
+				DD2078182D53BD27001208B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD2077DA2D53BD26001208B0 /* Project object */;
+}
