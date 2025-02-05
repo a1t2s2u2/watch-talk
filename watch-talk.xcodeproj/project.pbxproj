@@ -15,6 +15,7 @@
 		DD2077FD2D53BD27001208B0 /* watch_talk_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2077FC2D53BD27001208B0 /* watch_talk_Watch_AppTests.swift */; };
 		DD2078072D53BD27001208B0 /* watch_talk_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2078062D53BD27001208B0 /* watch_talk_Watch_AppUITests.swift */; };
 		DD2078092D53BD27001208B0 /* watch_talk_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2078082D53BD27001208B0 /* watch_talk_Watch_AppUITestsLaunchTests.swift */; };
+		DD20781D2D53CB0B001208B0 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD20781C2D53CB0B001208B0 /* Conversation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,9 @@
 		DD2078022D53BD27001208B0 /* watch-talk Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watch-talk Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2078062D53BD27001208B0 /* watch_talk_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch_talk_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		DD2078082D53BD27001208B0 /* watch_talk_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch_talk_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD2078192D53BDE3001208B0 /* APISettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APISettings.plist; sourceTree = "<group>"; };
+		DD20781C2D53CB0B001208B0 /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		DD20781E2D53CEAB001208B0 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,8 +124,11 @@
 			children = (
 				DD2077EB2D53BD26001208B0 /* watch_talkApp.swift */,
 				DD2077ED2D53BD26001208B0 /* ContentView.swift */,
+				DD20781C2D53CB0B001208B0 /* Conversation.swift */,
 				DD2077EF2D53BD27001208B0 /* Assets.xcassets */,
 				DD2077F12D53BD27001208B0 /* Preview Content */,
+				DD2078192D53BDE3001208B0 /* APISettings.plist */,
+				DD20781E2D53CEAB001208B0 /* Secrets.xcconfig */,
 			);
 			path = "watch-talk Watch App";
 			sourceTree = "<group>";
@@ -309,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD20781D2D53CB0B001208B0 /* Conversation.swift in Sources */,
 				DD2077EE2D53BD26001208B0 /* ContentView.swift in Sources */,
 				DD2077EC2D53BD26001208B0 /* watch_talkApp.swift in Sources */,
 			);
@@ -468,6 +476,7 @@
 		};
 		DD20780D2D53BD27001208B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD20781E2D53CEAB001208B0 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,6 +486,7 @@
 				DEVELOPMENT_TEAM = G4YLWA9N78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/watch-talk Watch App/APISettings.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "watch-talk";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
@@ -507,6 +517,7 @@
 				DEVELOPMENT_TEAM = G4YLWA9N78;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/watch-talk Watch App/APISettings.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "watch-talk";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
