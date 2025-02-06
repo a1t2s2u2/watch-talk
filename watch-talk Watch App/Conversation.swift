@@ -53,8 +53,8 @@ final class ConversationManager: ObservableObject {
         
         // API の仕様に合わせ、各メッセージは "role" と "content" として送信
         let requestMessages = messages.map { message in [
-                "role": message["role"] ?? "",
-                "content": message["text"] ?? ""
+            "role": message["role"] ?? "",
+            "content": message["text"] ?? ""
         ]}
         
         request.httpBody = try! JSONSerialization.data(withJSONObject: [
@@ -67,20 +67,17 @@ final class ConversationManager: ObservableObject {
                 DispatchQueue.main.async { self?.isLoading = false }
             }
             
-            // "通信エラー" もしくは "データが無い" 場合には処理を中断
             guard error == nil, let data = data else {
-                print("通信エラー もしくは データがありません")
+                print("通信エラー または データがありません")
                 return
             }
 
             do {
-                // JSONをパース
                 guard let json = try JSONSerialization.jsonObject(with: data) as? [String: Any] else {
                     print("JSONのパースに失敗しました")
                     return
                 }
                 
-                // 返答を取得
                 guard let choices = json["choices"] as? [[String: Any]],
                       let firstChoice = choices.first,
                       let messageData = firstChoice["message"] as? [String: Any],
@@ -89,17 +86,14 @@ final class ConversationManager: ObservableObject {
                     return
                 }
                 
-                // 余分な空白や改行を除去
                 let trimmedContent = content.trimmingCharacters(in: .whitespacesAndNewlines)
                 
-                // メインスレッドで会話の追加と読み上げを実行
                 DispatchQueue.main.async {
                     self?.append(["role": "assistant", "text": trimmedContent])
                     self?.speak(trimmedContent)
                 }
             } catch {
                 print("JSONパースエラー: \(error)")
-                return
             }
         }.resume()
     }
@@ -124,7 +118,6 @@ final class ConversationManager: ObservableObject {
             print("会話の保存に失敗: \(error)")
         }
     }
-
     
     // JSONファイルから会話を読み込む
     private func loadConversation() {
@@ -133,6 +126,18 @@ final class ConversationManager: ObservableObject {
             messages = try JSONDecoder().decode([[String: String]].self, from: data)
         } catch {
             print("会話の読み込みに失敗またはファイルが存在しません: \(error)")
+        }
+    }
+    
+    // 会話履歴を削除するメソッド
+    func clearHistory() {
+        messages.removeAll()
+        do {
+            if FileManager.default.fileExists(atPath: conversationFileURL.path) {
+                try FileManager.default.removeItem(at: conversationFileURL)
+            }
+        } catch {
+            print("会話ファイルの削除に失敗: \(error)")
         }
     }
 }
