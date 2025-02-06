@@ -175,6 +175,7 @@ struct SettingsView: View {
                     .padding()
                     .allowsHitTesting(false)
             } else {
+                // 会話が追加された場合は削除完了メッセージを非表示にする
                 if showDeletionMessage {
                     Text("会話履歴と表示が消えました")
                         .foregroundColor(.white)
@@ -210,8 +211,15 @@ struct SettingsView: View {
                 secondaryButton: .cancel()
             )
         }
+        .onChange(of: conversationManager.messages) { newMessages in
+            // 会話が追加されたら削除完了メッセージを非表示にする
+            if !newMessages.isEmpty {
+                showDeletionMessage = false
+            }
+        }
     }
 }
+
 
 
 struct ContentView_Previews: PreviewProvider {
