@@ -211,7 +211,7 @@ struct SettingsView: View {
                 secondaryButton: .cancel()
             )
         }
-        .onChange(of: conversationManager.messages) { newMessages in
+        .onChange(of: conversationManager.messages) { oldMessages, newMessages in
             // 会話が追加されたら削除完了メッセージを非表示にする
             if !newMessages.isEmpty {
                 showDeletionMessage = false
